@@ -10,8 +10,8 @@ headerItems.forEach(item => {
 })
 iconHam.addEventListener('click', (e) => {
   if (!headerMenu.classList.contains('show')) {
-    iconHam.src = 'images/icon-close.svg'
     headerMenu.classList.add('show')
+    iconHam.src = 'images/icon-close.svg'
   } else {
     headerMenu.classList.remove('show')
     iconHam.src = 'images/icon-hamburger.svg'

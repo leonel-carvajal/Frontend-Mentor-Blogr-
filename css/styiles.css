@@ -57,8 +57,6 @@ body{
 }
 .header__menu{
   position: absolute;
-  z-index: 100;
-  padding-left: 0;
   list-style: none;
   background-color: var(--White);
   width: 90%;
@@ -168,4 +166,104 @@ body{
 .Button--transparent{
   color: var(--White);
 border: 1px solid;
+}
+.main{
+  margin-top: 50px;
+}
+.main__info,
+.introducing__title{
+  text-align: center;
+  color: var(--Very-dark-gray-blue);
+}
+.introducing{
+  margin-top: 50px;
+}
+.introducing__title{
+  font-size: 2em;
+}
+.introducing__info{
+  color: var(--Very-dark-desaturated-blue);
+  font-weight: 300;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+}
+.state{
+  margin-top: 200px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: var(--Very-dark-gray-blue);
+  background-image: url('/images/bg-pattern-circles.svg');
+  background-repeat: no-repeat;
+  background-size: 175%;
+  background-position: 55% 200%;
+  color: var(--White);
+}
+.state__title{
+  font-weight: 500;
+  text-align: center;
+  font-size: 2em;
+  margin-top: -75px;
+}
+.state__info{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.5em;
+  padding-bottom: 3em;
+}
+.state__img{
+  transform: translateY(-40%);
+  margin-bottom: -100px;
+}
+.free{
+  margin-top: 100px;
+}
+.box-1__title,
+.box-2__title{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--Very-dark-gray-blue);
+}
+.box-1__info,
+.box-2__info{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+  color: var(--Very-dark-desaturated-blue);
+  font-weight: 5400;
+}
+.footer{
+  background-color: var(--Very-dark-black-blue);
+  color: var(--White);
+  height: 550px;
+  border-top-right-radius: 100px;
+  font-weight: 500;
+  margin-top: 75px;
+}
+.footer__img{
+  transform: translateX(100%);
+  padding-top: 2em;
+}
+.footer__menu{
+  padding-left: 0;
+  list-style: none;
+}
+.footer__item{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer__link{
+  text-decoration: none;
+  color: var(--Very-dark-grayish-blue);
+}
+.footer__options{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7em;
 }
