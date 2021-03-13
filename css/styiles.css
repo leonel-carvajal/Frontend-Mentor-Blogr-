@@ -1,0 +1,114 @@
+:root{
+
+  /*Colores primarios*/
+  --Light-red-primary: hsl(356, 100%, 66%);
+  --Very-light-red-primary: hsl(355, 100%, 74%);
+  --Very-dark-blue: hsl(208, 49%, 24%);
+  /*Colores secundarios*/
+  
+--White: hsl(0, 0%, 100%);
+--Grayish-blue: hsl(240, 2%, 79%);
+--Very-dark-grayish-blue: hsl(207, 13%, 34%);
+--Very-dark-black-blue: hsl(240, 10%, 16%);
+  /*GRADIENTES*/
+  /*Intro mobile/nav*/
+  --Very-light-red: hsl(13, 100%, 72%);
+  --Light-red: hsl(353, 100%, 62%);
+  /*body*/
+  --Very-dark-gray-blue: hsl(237, 17%, 21%);
+  --Very-dark-desaturated-blue: hsl(237, 23%, 32%);
+}
+
+body{
+  font-family:'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+.header{
+  /* height: 450px; */
+  border-bottom-left-radius: 75px;
+  background-color: var(--Light-red-primary);
+  background-image: url('/images/bg-pattern-intro.svg');
+  background-repeat: no-repeat;
+  background-size: 350%;
+  background-position: 35% 40%;
+  color: var(--White);
+}
+
+.header__logo{
+  position: absolute;
+  top: 10px;
+  left:10px;
+}
+.images{
+  width: 100%;
+  height: 75px;
+  position: relative;
+}
+.header__img,
+.header__logo{
+  position: absolute;
+  top: 30px;
+}
+.header__img{
+  right: 10px;
+}
+.header__logo{
+  left: 10px;
+}
+.header__menu{
+  padding-left: 0;
+  list-style: none;
+  background-color: var(--White);
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+}
+.header__item{
+  color: var(--Very-dark-blue);
+  text-align: center;
+  padding-top: 10px;
+}
+.item__img{
+  display: inline-block;
+  margin-left: 5px;
+}
+.header__link{
+  text-decoration: none;
+}
+.header__options{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  background-color: #eee;
+  line-height: 2em;
+  min-height:100px ;
+}
+.header__link{
+  color: var(--Very-dark-blue);
+}
+.login{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+.login__button,
+.sign__button{
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 45px;
+  color:var(--Very-dark-blue);
+}
+.sign__button{
+  width: 100px;
+  border-radius: 20px;
+  background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  color: var(--White);
+}

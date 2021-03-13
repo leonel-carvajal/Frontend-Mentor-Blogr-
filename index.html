@@ -13,9 +13,12 @@
 <body>
   <header class="header">
     <nav class="header__nav">
-      <img src="images/logo.svg" alt="logo">
+      <div class="images">
+        <img src="images/logo.svg" alt="logo" class="header__logo">
+        <img src="images/icon-hamburger.svg" alt="icon-hamburger" class="header__img">
+      </div>
       <ul class="header__menu">
-        <li class="header__item">Product
+        <li class="header__item">Product<img src="images/icon-arrow-dark.svg" class="item__img">
           <div class="header__options">
             <a href="#" class="header__link">Overview</a>
             <a href="#" class="header__link">Pricing</a>
@@ -24,7 +27,7 @@
             <a href="#" class="header__link">Integrations</a>
           </div>
         </li>
-        <li class="header__item">Company
+        <li class="header__item">Company<img src="images/icon-arrow-dark.svg" class="item__img">
           <div class="header__options">
             <a href="#" class="header__link">About</a>
             <a href="#" class="header__link">Team</a>
@@ -32,18 +35,18 @@
             <a href="#" class="header__link">Careers</a>
           </div>
         </li>
-        <li class="header__item">Connect
+        <li class="header__item">Connect<img src="images/icon-arrow-dark.svg" class="item__img">
           <div class="header__options">
             <a href="#" class="header__link">Contact</a>
             <a href="#" class="header__link">Newsletter</a>
             <a href="#" class="header__link">LinkedIn</a>
           </div>
         </li>
+        <div class="login">
+          <a href="#" class="login__button">Login</a>
+          <a href="#" class="sign__button">Sign Up</a>
+        </div>
       </ul>
-      <div class="login">
-        <a href="#" class="login">Login</a>
-        <a href="#" class="sign">Sign Up</a>
-      </div>
     </nav>
     <div class="titles">
       <h1 class="header__title">A modern publishing platform</h1>
