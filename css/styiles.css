@@ -192,13 +192,13 @@ body {
 
 @media screen and (min-width:1024px) {
   .header__options {
-    display: flex;
     position: absolute;
     width: 150px;
     height: 175px;
     left: 50%;
     transform: translateX(-50%);
   }
+  
 
   .header__link:hover {
     color: var(--Very-dark-black-blue);
@@ -207,8 +207,8 @@ body {
 }
 
 .animation {
-  display: flex;
   opacity: 1;
+  display: flex;
 }
 
 
@@ -574,5 +574,8 @@ body {
   .footer__link:hover{
     width: 100%;
     border-bottom: 1px solid var(--White);
+  }
+  .footer__link:first-child{
+    margin-top: 10px;
   }
 }
