@@ -4,8 +4,10 @@ const headerMenu = document.getElementById('header__menu')
 
 headerItems.forEach(item => {
   item.addEventListener('click', (e) => {
-    e.target.nextElementSibling.classList.toggle('animation')
-    e.target.children[0].classList.toggle('rotate')
+    if (e.target.classList.contains('header__item')) {
+      e.target.children[1].classList.toggle('animation')
+      e.target.children[0].children[1].classList.toggle('rotate')
+    }
   })
 })
 iconHam.addEventListener('click', (e) => {

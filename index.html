@@ -18,30 +18,42 @@
         <img src="images/icon-hamburger.svg" alt="icon-hamburger" class="header__img" id="header__img">
       </div>
       <ul class="header__menu" id="header__menu">
-        <li class="header__item">Product<img src="images/icon-arrow-dark.svg" class="item__img">
+        <li class="header__item">Product
+          <picture>
+            <source srcset="images/icon-arrow-light.svg" media="(min-width:1024px)" class="item__img">
+            <img src="images/icon-arrow-dark.svg" alt="illustration-laptop-mobile" class="item__img">
+          </picture>
+          <div class="header__options">
+            <a href="#" class="header__link">Overview</a>
+            <a href="#" class="header__link">Pricing</a>
+            <a href="#" class="header__link">Marketplace</a>
+            <a href="#" class="header__link">Features</a>
+            <a href="#" class="header__link">Integrations</a>
+          </div>
         </li>
-        <div class="header__options">
-          <a href="#" class="header__link">Overview</a>
-          <a href="#" class="header__link">Pricing</a>
-          <a href="#" class="header__link">Marketplace</a>
-          <a href="#" class="header__link">Features</a>
-          <a href="#" class="header__link">Integrations</a>
-        </div>
-        <li class="header__item">Company<img src="images/icon-arrow-dark.svg" class="item__img">
+        <li class="header__item">Company
+          <picture>
+            <source srcset="images/icon-arrow-light.svg" media="(min-width:1024px)" class="item__img">
+            <img src="images/icon-arrow-dark.svg" alt="illustration-laptop-mobile" class="item__img">
+          </picture>
+          <div class="header__options">
+            <a href="#" class="header__link">About</a>
+            <a href="#" class="header__link">Team</a>
+            <a href="#" class="header__link">Blog</a>
+            <a href="#" class="header__link">Careers</a>
+          </div>
         </li>
-        <div class="header__options">
-          <a href="#" class="header__link">About</a>
-          <a href="#" class="header__link">Team</a>
-          <a href="#" class="header__link">Blog</a>
-          <a href="#" class="header__link">Careers</a>
-        </div>
-        <li class="header__item">Connect<img src="images/icon-arrow-dark.svg" class="item__img">
+        <li class="header__item">Connect
+          <picture>
+            <source srcset="images/icon-arrow-light.svg" media="(min-width:1024px)" class="item__img">
+            <img src="images/icon-arrow-dark.svg" alt="illustration-laptop-mobile" class="item__img">
+          </picture>
+          <div class="header__options">
+            <a href="#" class="header__link">Contact</a>
+            <a href="#" class="header__link">Newsletter</a>
+            <a href="#" class="header__link">LinkedIn</a>
+          </div>
         </li>
-        <div class="header__options">
-          <a href="#" class="header__link">Contact</a>
-          <a href="#" class="header__link">Newsletter</a>
-          <a href="#" class="header__link">LinkedIn</a>
-        </div>
         <div class="login">
           <a href="#" class="Button">Login</a>
           <a href="#" class="Button Button--active">Sign Up</a>
@@ -49,7 +61,7 @@
       </ul>
     </nav>
     <div class="titles">
-      <h1 class="header__title">A modern <br> publishing platform</h1>
+      <h1 class="header__title">A modern publishing platform</h1>
       <p class="header__secondTitle">Grow your audience and build your online brand</p>
       <div class="titles__Button">
         <a href="#" class="Button Button--link">Start for Free</a>
@@ -85,11 +97,13 @@
     </article>
     <article class="state">
       <img src="images/illustration-phones.svg" alt="illustration-phones" class="state__img">
-      <h3 class="state__title">State of the Art Infrastructure</h3>
-      <p class="state__info">
-        With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
-        This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-      </p>
+      <div class="state__box">
+        <h3 class="state__title">State of the Art Infrastructure</h3>
+        <p class="state__info">
+          With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+        </p>
+      </div>
     </article>
     <article class="free">
       <div class="free__img">
